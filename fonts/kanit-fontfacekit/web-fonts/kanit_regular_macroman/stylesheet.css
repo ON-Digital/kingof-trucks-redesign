@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitregular';
+    src: url('kanit-regular-webfont.eot');
+    src: url('kanit-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-regular-webfont.woff2') format('woff2'),
+         url('kanit-regular-webfont.woff') format('woff'),
+         url('kanit-regular-webfont.ttf') format('truetype'),
+         url('kanit-regular-webfont.svg#kanitregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

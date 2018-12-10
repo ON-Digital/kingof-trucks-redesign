@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'kanitsemibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('../fonts/kanit-fontfacekit/web-fonts/kanit_semibold_macroman/kanit-semibold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'kanitregular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('../fonts/kanit-fontfacekit/web-fonts/kanit_regular_macroman/kanit-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica'), url('../fonts/open-sans-fontfacekit/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff');
+}
+
+
+/* General */
+
+body {
+  --c-primary: #D2181B;
+  /*
+  --c-gray: #F7F7F7;
+  --c-dark: #262424;
+  --c-greenLight: #44E57B;
+  --z-index-first: -400;
+  --z-index-second: -200;
+  --z-index-third: 200;
+  --z-index-four: 400;
+  --z-index-five: 600; */
+  font-family: 'open_sansregular';
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'kanitregular';
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+/* Utilities */
+
+.h-25rem {
+  height: 25rem;
+}
+
+.border-light {
+  border-color: rgba(0, 0, 0, 0.23) !important;
+}
+
+.bg-dark-layer {
+   background-color: rgba( 0, 0, 0, .5 );
+   background-blend-mode: multiply;
+ }
+
+.z-index200 {
+  z-index: var( --z-index-third );
+}
+
+.grid-wrp {
+  display: grid !important;
+}
+
+.grid-12cols {
+  grid-template-columns: repeat( 12, 1fr );
+}
+
+.grid-wrp-inline {
+  display: inline-grid;
+}
+
+.outline-0-onfocus:focus {
+  outline: 0 !important;
+}
+
+.background-no-repeat-cover {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center;
+}
+
+.bg-attachment-fixed {
+  background-attachment: fixed !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow-x: hidden !important;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.box-shadow {
+  box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}
+
+.flip {
+  transform: scale(-1);
+}
+
+.border--wider {
+  border-width: 3px !important;
+}
+
+.container-mg-t {
+  margin-top: 8.5rem;
+}
+
+.font-grow {
+  font-size: 1.5rem !important;
+}
+
+.font-bold {
+  font-weight: 600;
+  font-family: 'kanitsemibold';
+}
+
+.transition {
+  transition: all 270ms ease;
+}
+
+.font-3rem {
+  font-size: 3rem !important;
+}
+
+.vertical-align-super {
+  vertical-align: super;
+}
+
+.justify-self-start {
+  justify-self: start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-self-center {
+  justify-self: center !important;
+}
+
+.bold-font {
+  font-family: var( --anton-font );
+}
+
+.text-primary {
+  color: var( --c-primary ) !important;
+}
+
+.whole-cols-width {
+  grid-column: 1 / 13;
+}
+
+.font-uppercase {
+  text-transform: uppercase;
+}
+
+/* Sections */
+
+.s-home {
+  background: url( ../img/home-bg.jpeg );
+}
+
+/* Overwrite bootstrap */
+.btn-primary {
+  background-color: var(--c-primary) !important;
+  border-color: var(--c-primary) !important;
+}
+
+.btn-dark {
+  background-color: #000 !important;
+}
+
+/* .btn-secondary {
+  background-color: var(--c-secondary) !important;
+} */

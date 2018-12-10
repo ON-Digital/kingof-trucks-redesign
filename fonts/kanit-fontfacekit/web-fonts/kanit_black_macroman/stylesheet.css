@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitblack';
+    src: url('kanit-black-webfont.eot');
+    src: url('kanit-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-black-webfont.woff2') format('woff2'),
+         url('kanit-black-webfont.woff') format('woff'),
+         url('kanit-black-webfont.ttf') format('truetype'),
+         url('kanit-black-webfont.svg#kanitblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

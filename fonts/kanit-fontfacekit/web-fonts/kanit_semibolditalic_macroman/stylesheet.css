@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitsemibold_italic';
+    src: url('kanit-semibolditalic-webfont.eot');
+    src: url('kanit-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-semibolditalic-webfont.woff2') format('woff2'),
+         url('kanit-semibolditalic-webfont.woff') format('woff'),
+         url('kanit-semibolditalic-webfont.ttf') format('truetype'),
+         url('kanit-semibolditalic-webfont.svg#kanitsemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

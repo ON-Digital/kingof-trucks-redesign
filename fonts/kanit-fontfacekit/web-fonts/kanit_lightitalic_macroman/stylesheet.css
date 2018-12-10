@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitlight_italic';
+    src: url('kanit-lightitalic-webfont.eot');
+    src: url('kanit-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-lightitalic-webfont.woff2') format('woff2'),
+         url('kanit-lightitalic-webfont.woff') format('woff'),
+         url('kanit-lightitalic-webfont.ttf') format('truetype'),
+         url('kanit-lightitalic-webfont.svg#kanitlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
