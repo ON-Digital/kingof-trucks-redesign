@@ -109,10 +109,10 @@
     </svg>
 
 
-    <header class="container-fluid position-absolute text-right w-100">
+    <header class="container-fluid position-absolute text-right w-100 grid-wrp">
 
-      <div class="bg-dark row">
-        <div class="col-3 mr-auto grid-wrp justify-content-start align-items-center">
+      <div class="bg-dark row d-none d-lg-flex">
+        <div class="col-3 mr-auto justify-content-start align-items-center grid-wrp">
 
           <p class="text-white text-left mt-1">
             <span class="icon icon-facebook border border-white p-2 ml-1"></span>
@@ -134,12 +134,12 @@
           </p> -->
         </div>
 
-        <div class="col-9 ml-auto pt-3">
-          <a href="" class="btn border border-primary mr-2 text-primary rounded-0 p-3 pt-4 pb-4 mb-3">
+        <div class="col-lg-9 mr-auto mr-0 ml-lg-auto pt-3 text-left text-lg-right">
+          <a href="#" class="btn border border-primary mr-2 text-primary rounded-0 p-3 pt-4 pb-4 mb-3 d-none d-sm-inline-block">
             Get directions
           </a>
 
-          <a href="" class="font-uppercase mr-3 p-3 pl-4 pr-4 text-white btn btn-primary rounded-0 mb-3">
+          <a href="#" class="font-uppercase mr-3 p-3 pl-sm-4 pr-sm-4 text-white btn btn-primary rounded-0 mb-3 d-none d-sm-inline-block">
             <span class="icon icon-phone"></span>
 
             Call us
@@ -151,36 +151,36 @@
         </div>
       </div>
 
-      <div class="bg-dark ml-auto collapse-btn-wrp rounded-circle">
-        <button type="button" class="d-block d-lg-none position-relative z-index200 outline-0-onfocus">
+      <div class="bg-primary p-3 rounded-circle position-absolute c-menu-icon-wrp cursor-pointer d-block d-lg-none mt-3 justify-self-end mr-2" id="menu_responsive">
+        <p class="position-relative z-index200 outline-0-onfocus">
           <span class="c-menu-icon bg-white d-block"></span>
-        </button>
+        </p>
       </div>
 
-      <nav class="row navbar-nav bg-nav nav-menu-wrp">
-        <ul class="list-unstyled mt-2 clearfix">
-          <li class="text-center text-lg-left float-lg-left ml-3">
+      <nav class="row navbar-nav bg-nav nav-menu-wrp nav-menu-wrp-show transition overflow-hidden">
+        <ul class="list-unstyled mt-5 mt-lg-2 clearfix">
+          <li class="text-center text-lg-left float-lg-left ml-3 mt-5 mt-lg-0">
             <img src="img/logo.png" class="mw-100" alt="">
           </li>
 
           <li class="nav-item d-block d-lg-inline-block ml-lg-5 pt-2 text-center">
-            <a href="" class="nav-link text-white">Item</a>
+            <a href="#" class="nav-link text-white">Item</a>
           </li>
 
           <li class="nav-item d-block d-lg-inline-block ml-lg-5 pt-2 text-center">
-            <a href="" class="nav-link text-white">Item</a>
+            <a href="#" class="nav-link text-white">Item</a>
           </li>
 
           <li class="nav-item d-block d-lg-inline-block ml-lg-5 pt-2 text-center">
-            <a href="" class="nav-link text-white">Item</a>
+            <a href="#" class="nav-link text-white">Item</a>
           </li>
 
           <li class="nav-item d-block d-lg-inline-block ml-lg-5 pt-2 text-center">
-            <a href="" class="nav-link text-white">Item</a>
+            <a href="#" class="nav-link text-white">Item</a>
           </li>
 
           <li class="nav-item d-block d-lg-inline-block ml-lg-5 mr-lg-4 pt-2 text-center">
-            <a href="" class="nav-link text-white">Item</a>
+            <a href="#" class="nav-link text-white">Item</a>
           </li>
         </ul>
       </nav>
@@ -209,7 +209,7 @@
 
     <section class="s-features grid-wrp container mt-5 pt-5">
       <div class="row mt-5 text-center position-relative">
-        <div class="col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content">
+        <div class="col-10 col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content">
           <article class="box-shadow s-features__1st">
             <img src="img/features-thumb.jpeg" class="mw-100" alt="">
 
@@ -223,7 +223,7 @@
           </article>
         </div>
 
-        <div class="col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content mt-md-5 mt-lg-0">
+        <div class="col-10 col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content mt-5 mt-lg-0">
           <article class="box-shadow s-features__2nd">
 
             <img src="img/features-thumb.jpeg" class="mw-100" alt="">
@@ -238,7 +238,7 @@
           </article>
         </div>
 
-        <div class="col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content mt-md-5 mt-lg-0">
+        <div class="col-10 col-md-8 ml-auto mr-auto col-lg-4 position-relative grid-wrp h-min-content mt-5 mt-lg-0">
           <article class="box-shadow s-features__3rd">
 
             <img src="img/features-thumb.jpeg" class="mw-100" alt="">
@@ -267,7 +267,7 @@
           </h2>
         </header>
 
-        <div class="col-md-8 col-xl-5 ml-auto ml-xl-0 mr-auto s-about__description pt-3 pt-xl-5 mt-2 mt-xl-5 mb-3">
+        <div class="col-10 col-md-9 col-xl-5 ml-auto ml-xl-0 mr-auto s-about__description pt-3 pt-xl-5 mt-2 mt-xl-5 mb-3">
           <p class="text-white">
             The King of Credit is your local source for affordable, quality used trucks in Miami, Florida. You'll take great comfort in knowing that all our trucks go through a complete inspection before they are ready for sale. We have years of experience in the car sales industry and are eager to help you choose your next truck.
 
@@ -384,14 +384,12 @@
 
       <div class="row pt-5 mt-5 align-items-center">
 
-        <div class="col-3 ml-auto mr-auto">
+        <div class="col-9 col-md-4 col-lg-3 ml-auto mr-auto">
           <img src="img/thumb.jpeg" class="mw-100 box-shadow pb-5" alt="">
-
-
         </div>
 
-        <div class="col-5 ml-auto mr-auto border border-white border-top-0 border-bottom-0 border-right-0 pl-5">
-          <h2 class="text-white">
+        <div class="col-10 col-md-5 ml-auto mr-auto border border-white border-top-0 border-bottom-0 border-right-0 pl-md-5 s-showroom__title text-center text-md-left">
+          <h2 class="text-white mb-2">
             CHECK OUT OUR
             <span class="font-bold d-block">
               FEATURED VEHICLES
@@ -418,7 +416,7 @@ width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 
 
 
 
-          <div class="col-7 col-lg-4 ml-auto mr-auto mr-lg-0 grid-wrp align-items-center pl-5 pr-5 pt-5">
+          <div class="col-12 col-lg-4 ml-auto mr-auto mr-lg-0 grid-wrp align-items-center pl-5 pr-5 pt-5">
             <h2 class="font-uppercase text-center text-lg-right mt-5">
               WHAT REAL CUSTOMERS ARE SAYING
 
@@ -427,7 +425,7 @@ width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 
             </h2>
           </div>
 
-          <div class="col-7 col-lg-4 ml-auto ml-lg-0 mr-auto mt-lg-5 pt-3 clearfix">
+          <div class="col-10 col-lg-4 ml-auto ml-lg-0 mr-auto mt-lg-5 pt-3 clearfix">
 
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 0 64.8 54.8" xml:space="preserve" class="s-testimonial__quoteUp">
@@ -482,7 +480,7 @@ width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 
     <footer class="bg-dark mt-5 footer">
       <div class="container">
         <div class="row justify-items-center pt-5 footer-items-opaque">
-          <div class="col-4 col-lg-3 ml-auto mr-auto text-center">
+          <div class="col-md-4 col-lg-3 ml-auto mr-auto text-center mb-3 mb-md-0">
 
             <h3 class="footer__title">About</h3>
 
@@ -491,40 +489,40 @@ width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 
             </p>
           </div>
 
-          <div class="col-4 col-lg-3 ml-auto mr-auto text-center">
+          <div class="col-md-4 col-lg-3 ml-auto mr-auto text-center mb-3 mb-md-0">
             <h3 class="footer__title">Navigation</h3>
 
             <ul class="list-unstyled">
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
             </ul>
           </div>
 
-          <div class="col-4 col-lg-3 ml-auto mr-auto text-center">
+          <div class="col-md-4 col-lg-3 ml-auto mr-auto text-center mb-3 mb-md-0">
 
             <h3 class="footer__title">Useful links</h3>
             <ul class="list-unstyled">
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
               <li>
-                <a href="" class="">Item</a>
+                <a href="#" class="">Item</a>
               </li>
             </ul>
           </div>
@@ -581,5 +579,6 @@ width="64.8px" height="54.8px" viewBox="0 0 64.8 54.8" enable-background="new 0 
     <script src="js/jquery-3.2.1.js"></script>
     <script src="bootstrap-4.0/assets/js/vendor/popper.min.js"></script>
     <script src="bootstrap-4.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
