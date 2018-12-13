@@ -71,6 +71,10 @@ h2 {
   font-size: 1.85rem;
 }
 
+h3 {
+  font-size: 1.27rem;
+}
+
 /* Utilities */
 
 .h-min-content {
@@ -245,13 +249,13 @@ h2 {
   background-image: url( ../img/about-bg.jpeg );
 }
 
-.s-about__header {
+/* .s-about__header {
   grid-column: 3 / 6;
-}
+} */
 
-.s-about__description {
+/* .s-about__description {
   grid-column: 7 / 11;
-}
+} */
 
 .s-services__heading {
   white-space: pre;
@@ -270,55 +274,68 @@ h2 {
   display: block;
   width: 2.7rem;
   height: .11rem;
-  background: #fff;
-  margin-top: 1rem;
+  background: rgba(255, 255, 255, .85);
+  margin-top: .78rem;
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
+  /* margin-left: 7rem; */
 }
 
+/* .copyright-text::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(255, 255, 255, .5);
+} */
+
+.footer-items-opaque * {
+  color: rgba(255, 255, 255, .87);
+}
+
+/* .footer-line::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, .2);
+  margin-top: -1.75rem;
+} */
 
 
   /* Features */
 
-.s-features__1st::before {
-  content: "01";
+.features-text::after {
+  content: "";
   display: block;
-  position: absolute;
-  color: #D2181B;
-  font-family: var(--font-semibold);
-  font-size: 6.25rem;
-  top: -6rem;
-  justify-self: center;
-  opacity: .18;
-}
-
-.s-features__2nd::before {
-  content: "02";
-  display: block;
-  position: absolute;
-  color: #000000;
-  font-family: var(--font-semibold);
-  font-size: 6.25rem;
-  top: -6rem;
-  justify-self: center;
-  opacity: .18;
-}
-
-
-.s-features__3rd::before {
-  content: "03";
-  display: block;
-  position: absolute;
-  color: #D2181B;
-  font-family: var(--font-semibold);
-  font-size: 6.25rem;
-  top: -6rem;
-  justify-self: center;
-  opacity: .18;
+  width: 2.5rem;
+  height: .2rem;
+  margin-top: .5rem;
+  margin-left: 1rem;
+  margin-bottom: .75rem;
+  background: var(--c-primary);
 }
 
 /* Overwrite bootstrap */
+
+/* .carousel-inner {
+  overflow: visible !important;
+} */
+
+.carousel-indicators {
+  bottom: -3rem !important;
+}
+
+.carousel-indicators .active {
+  background: var(--c-primary) !important;
+}
+
+.carousel-indicators li {
+  background: transparent !important;
+  border: 1px solid var(--c-primary) !important;
+}
+
 .btn-primary {
   background-color: var(--c-primary) !important;
   border-color: var(--c-primary) !important;
@@ -357,4 +374,112 @@ h2 {
 /* Components */
 .bg-nav {
   background-color: rgba( 255, 255, 255, .35 );
+}
+
+.c-menu-icon {
+  height: .18rem;
+  width: 2rem;
+}
+
+.c-menu-icon::before {
+  content: "";
+  display: inline-block;
+  height: .18rem;
+  width: 2rem;
+  background-color: #fff;
+}
+
+.c-menu-icon::after {
+  content: "";
+  display: inline-block;
+  height: .18rem;
+  width: 2rem;
+  transform: translateY(-.68rem);
+  background-color: #fff;
+}
+
+.icon-arrow-size {
+  font-size: 1.35rem;
+  /* Ojo */
+  transform: translateY( .3rem );
+}
+
+.quote-down {
+  margin-top: -2rem;
+}
+
+.z-index200 {
+  z-index: 200
+}
+
+.collapse-btn-wrp {
+  width: 4.25rem;
+  height: 4.25rem;
+}
+
+/* Media queries */
+
+@media (max-width: 1200px) {
+  .s-about__title {
+    border-right: 0 !important;
+  }
+
+  .s-about__title::after {
+    content: "";
+    display: block;
+    height: 1.75px;
+    width: 2.75rem;
+    background: #fff;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .s-features__1st::before {
+    content: "01";
+    display: block;
+    position: absolute;
+    color: #D2181B;
+    font-family: var(--font-semibold);
+    font-size: 6.25rem;
+    top: -6rem;
+    justify-self: center;
+    opacity: .18;
+  }
+
+  .s-features__2nd::before {
+    content: "02";
+    display: block;
+    position: absolute;
+    color: #000000;
+    font-family: var(--font-semibold);
+    font-size: 6.25rem;
+    top: -6rem;
+    justify-self: center;
+    opacity: .18;
+  }
+
+
+  .s-features__3rd::before {
+    content: "03";
+    display: block;
+    position: absolute;
+    color: #D2181B;
+    font-family: var(--font-semibold);
+    font-size: 6.25rem;
+    top: -6rem;
+    justify-self: center;
+    opacity: .18;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-menu-wrp {
+    height: 100vh;
+    background: #000 !important;
+    margin-top: -1rem;
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+  }
 }
