@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitextrabold';
+    src: url('kanit-extrabold-webfont.eot');
+    src: url('kanit-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-extrabold-webfont.woff2') format('woff2'),
+         url('kanit-extrabold-webfont.woff') format('woff'),
+         url('kanit-extrabold-webfont.ttf') format('truetype'),
+         url('kanit-extrabold-webfont.svg#kanitextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

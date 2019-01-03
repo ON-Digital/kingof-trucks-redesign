@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'kanitmedium_italic';
+    src: url('kanit-mediumitalic-webfont.eot');
+    src: url('kanit-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kanit-mediumitalic-webfont.woff2') format('woff2'),
+         url('kanit-mediumitalic-webfont.woff') format('woff'),
+         url('kanit-mediumitalic-webfont.ttf') format('truetype'),
+         url('kanit-mediumitalic-webfont.svg#kanitmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

@@ -14,7 +14,6 @@
   font-family: 'kanitregular';
   src: url('../fonts/kanit-fontfacekit/web-fonts/kanit_regular_macroman/kanit-regular-webfont.eot');
   src: url('../fonts/kanit-fontfacekit/web-fonts/kanit_regular_macroman/kanit-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/kanit-fontfacekit/web-fonts/kanit_regular_macroman/kanit-regular-webfont.woff2') format('woff2'),
        url('../fonts/kanit-fontfacekit/web-fonts/kanit_regular_macroman/kanit-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -24,7 +23,6 @@
     font-family: 'open_sansregular';
     src: url('../fonts/open-sans-fontfacekit/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
     src: url('../fonts/open-sans-fontfacekit/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/open-sans-fontfacekit/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff2') format('woff2'),
          url('../fonts/open-sans-fontfacekit/web-fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -416,6 +414,38 @@ h3 {
   transform: translateY( .3rem );
 }
 
+/* Truck finder page */
+
+.page-title-pseudoline::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  width: 4rem;
+  background: var( --c-primary );
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.btn-finder {
+  width: 13rem;
+}
+
+.contact-info__textarea {
+  width: 100%;
+}
+
+/* .input-finder {
+  opacity: .87;
+} */
+
+.contact-info-bg {
+  background-image: url( ../img/home-bg.jpeg );
+}
+
+/* End truck finder page */
+
 .quote-down {
   margin-top: -2.6rem;
 }
@@ -579,7 +609,5 @@ h3 {
   h2 {
     font-size: 1.65rem;
   }
-
-}
 
 }
