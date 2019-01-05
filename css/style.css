@@ -436,9 +436,23 @@ h3 {
   width: 100%;
 }
 
-/* .input-finder {
-  opacity: .87;
-} */
+.input-finder {
+  opacity: .93;
+}
+
+@media (min-width: 1200px) {
+
+  .form-contact-pseudo::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15rem;
+    margin-top: 2.85rem;
+    margin-left: -7.35rem;
+    position: absolute;
+    background: rgba( 0, 0, 0, .13 );
+  }
+}
 
 .contact-info-bg {
   background-image: url( ../img/home-bg.jpeg );
